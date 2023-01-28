@@ -1,0 +1,10 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana;
+    padding: 20px;
+    background-color: #394651;
+    
+}
