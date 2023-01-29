@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Loader_first from './componets/Loader_first'
 import WeatherCard from './componets/WeatherCard'
+import Clouds from './componets/Clouds'
 
 
 const API_KEY="3362449f7dafac1b70446a6034af3d39"
@@ -55,7 +56,9 @@ function App() {
   /*Toco colocar {weather && } ya que depende este codigo de un consumo de api y me salia un error en la consola del navegador*/
   return (
     <div className="App">     
+      
     { weather ? (
+      <Clouds />,
       <WeatherCard weather={weather}
       temps={temps}
       isCelsius={isCelsius}

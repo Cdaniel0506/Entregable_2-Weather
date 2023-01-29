@@ -1,8 +1,13 @@
 import React from 'react'
 
 const WeatherMap = () => {
+    const URL = 'http://maps.openweathermap.org/maps/2.0/weather/{op}/{z}/{x}/{y}?appid={API key}'
   return (
-    <div>WeatherMap</div>
+    <section>
+        <button>Fetsh</button>
+
+    </section>
+    
   )
 }
 
