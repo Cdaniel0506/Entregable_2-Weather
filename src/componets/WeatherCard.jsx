@@ -18,6 +18,7 @@ const WeatherCard = ({weather, temps, isCelsius, changeUnitTemp}) => {
         </ul>
         <button className="weatherCard_btn" onClick={changeUnitTemp} >&deg;C / &deg;F</button>
         
+        
     </section>
   )
 }

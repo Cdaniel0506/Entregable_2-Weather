@@ -1,11 +1,11 @@
 import React from 'react'
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+import "./styles/Clouds.css"
+
 
 const Clouds = () => {
   return (
-    <div>
-        <i class='bx bx-cloud'></i>
-        <i class='bx bx-cloud bx-fade-right' ></i>
+    <div className="Clouds">
+      <i class='bx bx-star'></i>
     </div>
   )
 }

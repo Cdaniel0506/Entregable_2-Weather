@@ -55,7 +55,8 @@ function App() {
 
   /*Toco colocar {weather && } ya que depende este codigo de un consumo de api y me salia un error en la consola del navegador*/
   return (
-    <div className="App">     
+    <div className="App"> 
+    
       
     { weather ? (
       <Clouds />,
@@ -64,6 +65,8 @@ function App() {
       isCelsius={isCelsius}
       changeUnitTemp={changeUnitTemp}
       />
+      
+      
       ) : <Loader_first />
     }
     </div>
